@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-label="bambu-cli icon">
+  <rect x="6" y="6" width="116" height="116" rx="24" fill="#141414" stroke="#0E7C5B" stroke-width="4" />
+  <!-- Top gantry bar -->
+  <rect x="26" y="28" width="76" height="8" rx="4" fill="#F4F1EA" />
+  <!-- Print head & nozzle -->
+  <rect x="52" y="34" width="24" height="18" rx="4" fill="#0E7C5B" />
+  <polygon points="58,52 70,52 64,64" fill="#D95F02" />
+  <!-- Layered printed part -->
+  <rect x="40" y="72" width="48" height="8" rx="3" fill="#F4F1EA" />
+  <rect x="34" y="84" width="60" height="8" rx="3" fill="#0E7C5B" />
+  <!-- Print bed base -->
+  <rect x="24" y="96" width="80" height="8" rx="4" fill="#D95F02" />
+</svg>

@@ -6,5 +6,8 @@ build/
 .venv/
 venv/
 .pytest_cache/
+docs/node_modules/
+docs/.vitepress/dist/
+docs/.vitepress/cache/
 .DS_Store
 Thumbs.db
