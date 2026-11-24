@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bambu-cli"
+version = "0.1.0"
+description = "CLI tool for slicing with Bambu Studio and controlling Bambu Lab 3D printers over LAN"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "bambulabs-api>=2.6.0",
+]
+
+[project.scripts]
+bambu-cli = "bambu_cli.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["bambu_cli*"]
